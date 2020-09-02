@@ -129,9 +129,16 @@
             background-color:#181818;
             color:white;
             padding: 30px 30px 30px 30px;
+            
         }
         /* *********************** Fin código FOOTER ********************* */
 
+.section-footer{
+    align:center;
+    width:800px;
+    border-collapse:collapse;
+
+}
     </style>
 </head>
 <body>
@@ -327,7 +334,10 @@
                  <!-- Find Otras Formas de Pago -->
             </td>
         </tr><!-- END Body -->
-        <tr><!-- Footer -->
+       
+    </table>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="800" style="border-collapse:collapse;">
+    <tr<!-- Footer -->
             <td class="footer" >
                 
                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
