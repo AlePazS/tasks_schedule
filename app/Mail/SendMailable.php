@@ -28,6 +28,7 @@ class SendMailable extends Mailable
      */
     public function build()
     {
+        //Se envia el correo con la plantilla welcome ubicada en la carpeta emails dentro de la carpeta view
         return $this->view('emails.welcome');
     }
 }
