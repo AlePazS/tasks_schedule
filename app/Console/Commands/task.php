@@ -40,6 +40,6 @@ class task extends Command
     public function handle()
     {
         $totalUsers=5;
-       Mail::to('tuCorreo@tuDominio.com')->send(new SendMailable($totalUsers));
+       Mail::to('pdinaalejandra@gmail.com')->send(new SendMailable($totalUsers));
     }
 }
